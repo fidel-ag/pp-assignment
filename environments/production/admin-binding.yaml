@@ -1,7 +1,7 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: admin-binding
+  name: admin-staging-binding
   namespace: staging
 subjects:
   - kind: Group
